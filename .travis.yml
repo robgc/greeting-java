@@ -5,7 +5,7 @@ jdk:
   - oraclejdk8
 
 script:
-  mvn clean build
+  mvn clean compile
 
 notifications: 
   email: false
